@@ -1,5 +1,5 @@
 {
-  "name": "create-stack-forge",
+  "name": "@rupamsatyaki/create-stack-forge",
   "version": "1.0.0",
   "description": "Scaffold fullstack apps in seconds — React, Vue, Express, Fastify, MongoDB and more",
   "type": "module",
