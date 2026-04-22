@@ -2,9 +2,9 @@
 
 > Scaffold fullstack apps in seconds — with live wireframe, conditional imports, and smart templates.
 
-[![npm version](https://img.shields.io/npm/v/create-stack-forge)](https://www.npmjs.com/package/create-stack-forge)
-[![node](https://img.shields.io/node/v/create-stack-forge)](https://nodejs.org)
-[![license](https://img.shields.io/npm/l/create-stack-forge)](./LICENSE)
+[![npm version](https://img.shields.io/npm/v/@rupamsatyaki/create-stack-forge)](https://www.npmjs.com/package/@rupamsatyaki/create-stack-forge)
+[![node](https://img.shields.io/node/v/@rupamsatyaki/create-stack-forge)](https://nodejs.org)
+[![license](https://img.shields.io/npm/l/@rupamsatyaki/create-stack-forge)](./LICENSE)
 
 ---
 
@@ -54,13 +54,13 @@
 ### Use without installing (recommended)
 
 ```bash
-npx create-stack-forge my-app
+npx @rupamsatyaki/create-stack-forge my-app
 ```
 
 ### Install globally
 
 ```bash
-npm install -g create-stack-forge
+npm install -g @rupamsatyaki/create-stack-forge
 ```
 
 Then use directly:
@@ -72,7 +72,7 @@ create-stack-forge my-app
 ### Install as dev dependency (for teams)
 
 ```bash
-npm install --save-dev create-stack-forge
+npm install --save-dev @rupamsatyaki/create-stack-forge
 ```
 
 Add to `package.json` scripts:
@@ -91,28 +91,28 @@ Add to `package.json` scripts:
 
 ```bash
 # Interactive mode — full prompts with live wireframe
-npx create-stack-forge my-app
+npx @rupamsatyaki/create-stack-forge my-app
 
 # Default preset — React 18 + Express 4 + MongoDB + Tailwind (no prompts)
-npx create-stack-forge my-app --default
+npx @rupamsatyaki/create-stack-forge my-app --default
 
 # Only backend
-npx create-stack-forge my-app --default --only backend
+npx @rupamsatyaki/create-stack-forge my-app --default --only backend
 
 # Only frontend
-npx create-stack-forge my-app --default --only frontend
+npx @rupamsatyaki/create-stack-forge my-app --default --only frontend
 
 # Skip prompts with flags
-npx create-stack-forge my-app --frontend react --backend express --db mongodb --css tailwind
+npx @rupamsatyaki/create-stack-forge my-app --frontend react --backend express --db mongodb --css tailwind
 
 # Preview without creating files
-npx create-stack-forge my-app --default --dry-run
+npx @rupamsatyaki/create-stack-forge my-app --default --dry-run
 
 # Update existing project config files
-npx create-stack-forge update ./my-app
+npx @rupamsatyaki/create-stack-forge update ./my-app
 
 # Update with dry-run
-npx create-stack-forge update ./my-app --dry-run
+npx @rupamsatyaki/create-stack-forge update ./my-app --dry-run
 ```
 
 ---
@@ -124,7 +124,7 @@ npx create-stack-forge update ./my-app --dry-run
 Main scaffold command. Runs interactive prompts if no flags provided.
 
 ```bash
-npx create-stack-forge my-app
+npx @rupamsatyaki/create-stack-forge my-app
 ```
 
 ### `create-stack-forge update [path]`
@@ -133,9 +133,9 @@ Updates config files of an existing `create-stack-forge` project.
 Reads `.forgerc.json` from the project root (auto-saved on generation).
 
 ```bash
-npx create-stack-forge update ./my-app
-npx create-stack-forge update .          # current directory
-npx create-stack-forge update ./my-app --dry-run
+npx @rupamsatyaki/create-stack-forge update ./my-app
+npx @rupamsatyaki/create-stack-forge update .          # current directory
+npx @rupamsatyaki/create-stack-forge update ./my-app --dry-run
 ```
 
 **What can be updated:**
@@ -546,4 +546,4 @@ Used by `create-stack-forge update` to regenerate config files.
 
 ## License
 
-MIT © [rupamsatyaki](https://github.com/rupamsatyaki)
+MIT © [RupamSatyaki](https://github.com/RupamSatyaki)
