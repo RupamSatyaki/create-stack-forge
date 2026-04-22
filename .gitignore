@@ -1,0 +1,12 @@
+node_modules
+dist
+*.log
+.DS_Store
+
+# Test generated projects
+test-default
+test-app
+only-be-test
+only-be2
+only-fe
+dry-test
